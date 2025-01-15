@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+
+  <body class="bg-body">
+    <nav class="flex items-center justify-between p-3 bg-white">
+      <!-- nav-bar --->
+      <a class="flex gap-2" href="#" id="brand">
+        <img class="h-8 w-8 object-cover" src="/img/asset 0.png" />
+        <span class="flex items-center justify-center text-2xl  font-display font-medium">ToDesktop</span>
+      </a>
+      <!-- nav-list -->
+      <div id="nav-menu" class="hidden gap-12 md:flex font-display mx-4">
+        <a href="#" class="hover:text-primary font-medium">Pricing</a>
+        <a href="#" class="hover:text-primary font-medium">Docs</a>
+        <a href="#" class="hover:text-primary font-medium">Changelog</a>
+        <a href="#" class="hover:text-primary font-medium">Blogs</a>
+        <a href="#" class="hover:text-primary font-medium">Login</a>
+      </div>
+      <button class=" hidden md:flex font-medium gap-2 border-2 border-black p-2 rounded justify-center items-center">
+        <img src="/img/asset 1.svg">
+        Electron Developer
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+      <button class="flex-center h-6 w-6 items-center p-2 md:hidden" onclick="hiddenmenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+  </body>
+  <script src="https://kit.fontawesome.com/b70b8273a2.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</html>
